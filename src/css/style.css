@@ -1,0 +1,217 @@
+.container-fluid{
+  margin-left:50px;
+  margin-right:50px;
+}
+
+
+
+/*navigation*/
+a:link{
+  color:white;
+}
+
+a:visited{
+  color:#DCDCDC;
+}
+a:hover{
+  color:#b953d3;
+  background-color:#f4f4f4;
+}
+.active{
+  border-bottom: 2px solid #b953d3;
+}
+
+
+.navbar-inverted{
+  background-color:rgb(21,17,31);
+  opacity:0.8;
+  filter: alpha(opacity=80);
+  margin:-2px;
+}
+.navbar-brand{
+  color:#f4f4f4;
+}
+
+/*background image*/
+.bgimage{
+  width:100%;
+  height:518px;
+  background: url(../../assets/img/christopher-czermak-737894-unsplash.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  box-shadow:0 5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+h2{
+  margin-bottom:20px;
+}
+
+.portfolio{
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.thumbnail{
+  border:none;
+  box-shadow:0 5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.contact{
+  background-color:#15111f;
+  color:#f4f4f4;
+}
+
+.btn{
+  margin-bottom:30px;
+  background-color:#15111f;
+  border:1px solid white;
+}
+
+.btn-primary:hover{
+  -webkit-transition:1s ease;
+  transition:1s ease;
+  background-color:#b953d3;
+  color:#15111f;
+  border:1px solid white;
+}
+
+.btn-success:hover{
+  -webkit-transition:1s esae;
+  transition:1s ease;
+  background-color:#b953d3;
+  color:#15111f;
+  border:1px solid white;
+}
+
+.footer{
+  background-color:#f4f4f4;
+  padding:10px;
+}
+/********************* canvas *******/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  background-color: #eee;
+  min-height: 100%;
+  color: #fff;
+  background-image: url("http://isaacsuttell.com/img/justine.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Raleway, sans-serif;
+}
+
+#title {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  z-index: 100;
+  color: #fff;
+}
+/********** home *******/
+#wrapper {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 10em;
+  padding: 50px 0;
+}
+
+span { 
+  text-shadow: -0.06em 0 red,  0.06em 0 cyan; /* This creates the 3D effect, pretty easy, eh? */
+  letter-spacing: 0.08em; /* make sure the letters don't overlap */
+}
+
+p {
+  margin: 0;
+}
+
+/* ---------------- Stars ---------------- */
+
+#stars span {
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 2s cubic-bezier(0, 1, 0, 1);
+}
+#stars span:hover {
+  cursor: crosshair;
+  transform: scale(1.3); /* This adds a hover effect */
+  transition: transform .2s cubic-bezier(0, 0.75, 0, 1);
+}
+#stars span:active {
+  text-shadow: none; /* Click to disable the 3D effect */
+}
+
+/* Below the stars animation */
+#stars span:nth-child(1), #stars span:nth-child(5) { font-size: 0.3em; animation-delay: 0.2s; }
+#stars span:nth-child(2), #stars span:nth-child(4) { font-size: 0.5em; animation-delay: 0.1s; }
+#stars span:nth-child(3) { font-size: 0.8em; animation-delay: 0s; }
+
+#stars span { animation: stars-animation 3s 50 ease-in-out; }
+
+@-webkit-keyframes stars-animation {
+  0% { transform: scale(1); }
+  90% { transform: scale(1); }
+  95% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+#stars:hover span {
+  animation: none; /* Disables the animation on hover */
+}
+
+
+/* ---------------- Title ---------------- */
+
+#title {
+  font-family: Helvetica, Geneva, sans-serif; /* Any font would work, but SansSerif looks better */
+}
+#title:focus {
+  outline: none;
+}
+#title span {
+  vertical-align: middle;
+  line-height: 1.5em;
+  transition: font-size 2s cubic-bezier(0, 1, 0, 1);
+}
+#title span:hover {
+  font-size: 1.5em; /* This adds a hover effect */
+  line-height: 1em;
+  transition: font-size .2s cubic-bezier(0, 0.75, 0, 1);
+}
+#title span:active {
+  font-size: 1em;
+  text-shadow: none; /* Click to disable the 3D effect */
+}
+#title span::selection {
+  background-color: red; /* This hides the selection */
+}
+
+
+/* ---------------- Slogan ---------------- */
+
+#slogan { 
+  font-size: 0.25em;
+  margin-right: 20em;
+ }
+#slogan span:active { text-shadow: none; }
+
+
+
+
+/* Below just some styling for the meta info */
+
+#meta {
+  color: #777;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-align: center;
+  text-shadow: rgba(255,255,255,0.5) 0 1px 0;
+  margin: 30px;
+}
+#meta strong { font-weight: bold; color: #000; }
+#meta p:first-child { margin-bottom: 20px; }
+#meta a { text-decoration: none; color: #7276ff; }
+#meta a:hover { color: rgba(114,118,255,0.5); }
+#meta img { vertical-align: text-bottom; }
