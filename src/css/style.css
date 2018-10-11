@@ -114,8 +114,14 @@ body {
   text-align: center;
   color: #000;
   font-weight: bold;
-  font-size: 10em;
+  font-size: 9em;
   padding: 50px 0;
+  width: 300px;
+  margin-left: 35%;
+  margin-top:5%;
+}
+.bgimage{
+  height:90vh;
 }
 
 span { 
@@ -192,10 +198,12 @@ p {
 /* ---------------- Slogan ---------------- */
 
 #slogan { 
-  font-size: 0.25em;
-  margin-right: 20em;
+  font-size: 0.2em;
+
  }
-#slogan span:active { text-shadow: none; }
+#slogan span:active { 
+  text-shadow: none; 
+}
 
 
 
@@ -217,6 +225,7 @@ p {
 #meta img { vertical-align: text-bottom; }
 
 /************ sobre mi ***************/
+
 @import 'https://fonts.googleapis.com/css?family=Bree+Serif';
 
 body {
@@ -234,7 +243,7 @@ h2 {
 
 @media (min-width: 480px) {
   h2 {
-    font-size: 6em;
+    font-size: 3em;
   }
 }
 
@@ -444,6 +453,57 @@ h2 {
   97% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);}
   98% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);}
   99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);}
-  100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);} }
+  100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);} 
+}
+
+  .container{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    width: 70%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 25px 0.5px  #212121;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 33.3%;
+}
+
+.card:hover{
+    background-color: #E0E0E0;
+}
+
+.img-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-container > img {
+    min-width: 75px;
+    min-height: 75px;
+}
+
+.description{
+    display: inline;
+    font-size: 0.85rem;
+    padding: 20px;
+    text-align: center;
+    color: #aeaeae;
+}
+
+.subject , .price{
+    padding: 20px;
+    font-size: 1.30rem;
+    text-align: center;
+    color: #5572d6;
+}
 
   /**************************** proyectos *********************************/
