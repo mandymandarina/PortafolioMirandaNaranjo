@@ -328,3 +328,4 @@ function defaults(object, src) {
   }
   return object;
 }
+//animasion lista skills//

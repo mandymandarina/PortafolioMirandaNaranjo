@@ -1,9 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .container-fluid{
   margin-left:50px;
   margin-right:50px;
 }
-
-
 
 /*navigation*/
 a:link{
@@ -15,7 +17,7 @@ a:visited{
 }
 a:hover{
   color:#b953d3;
-  background-color:#f4f4f4;
+  /* background-color:#f4f4f4; */
 }
 .active{
   border-bottom: 2px solid #b953d3;
@@ -34,9 +36,8 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  width:100%;
-  height:518px;
-  background: url(../../assets/img/christopher-czermak-737894-unsplash.jpg);
+  width:100%;  
+  background: url(../../assets/img/foto-pc.jpg);
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
@@ -94,7 +95,7 @@ body {
   background-color: #eee;
   min-height: 100%;
   color: #fff;
-  background-image: url("http://isaacsuttell.com/img/justine.jpg");
+  background-image: url("../../assets/img/mirandayohola.jpg");
   background-size: cover;
   background-position: center;
   font-family: Raleway, sans-serif;
@@ -121,7 +122,7 @@ body {
   margin-top:5%;
 }
 .bgimage{
-  height:90vh;
+  height:100vh;
 }
 
 span { 
@@ -228,22 +229,19 @@ p {
 
 @import 'https://fonts.googleapis.com/css?family=Bree+Serif';
 
-body {
- background-color: #fefefe;
- font-family: 'Bree Serif', serif;
-}
 
-h2 {
+h3 {
   -webkit-animation: glitch 3s steps(100) infinite;
           animation: glitch 3s steps(100) infinite;
   color: #151515;
   font-size: 3em;
-  text-align: center;
+  
 }
 
 @media (min-width: 480px) {
-  h2 {
-    font-size: 3em;
+  h3 {
+    font-size: 2.3em;
+    margin-top: 2%;
   }
 }
 
@@ -472,12 +470,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    max-width: 33.3%;
+    max-width: 50.3%;    
 }
 
-.card:hover{
-    background-color: #E0E0E0;
-}
+
 
 .img-container{
     padding: 20px;
@@ -504,6 +500,133 @@ h2 {
     font-size: 1.30rem;
     text-align: center;
     color: #5572d6;
+}
+li{
+  color: black;
+}
+#animateList li a {
+  cursor: pointer;
+  -webkit-transition: padding-left 250ms ease-out;
+  -moz-transition: padding-left 250ms ease-out;
+}
+
+#animateList li a:hover {
+  padding-left: 10px;
+}
+#animateList2 li a {
+  cursor: pointer;
+  -webkit-transition: padding-left 250ms ease-out;
+  -moz-transition: padding-left 250ms ease-out;
+}
+
+#animateList2 li a:hover {
+  padding-left: 10px;
+}
+
+/**************** foto**************/
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+.snip1508 {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #1A1A1A;
+}
+
+.snip1508 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1508 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1508 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30px;
+  background-color: #202123;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.snip1508 h2,
+.snip1508 h3,
+.snip1508 p {
+  margin: 0;
+}
+
+.snip1508 h2,
+.snip1508 h3 {
+  font-family: 'Slabo 27px', serif;
+  line-height: 1.2em;
+}
+
+.snip1508 h2 {
+  font-size: 1.9em;
+  color: #35ADF9;
+}
+
+.snip1508 h3 {
+  color: #EBEBEB;
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.snip1508 p {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9em;
+  margin-top: 12px;
+  padding: 12px 0 15px;
+  line-height: 1.5em;
+}
+
+.snip1508 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1508:hover > img,
+.snip1508.hover > img {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.snip1508:hover figcaption,
+.snip1508.hover figcaption {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+
+/* Demo purposes only */
+
+body {
+  background-color: #212121;
 }
 
   /**************************** proyectos *********************************/
