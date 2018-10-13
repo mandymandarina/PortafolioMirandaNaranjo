@@ -1,25 +1,28 @@
 /******* primera pantalla y nav *******/
-@media(min-width: 375px) and (max-width: 2560px){
+@media(min-width: 375px) and (max-width: 768px){
   .navbar-inverted{
     width: 100%;
+    height: 25%
   }
   .navbar-nav{
-    margin-right: 15%
+    margin-right: 40%;
+    margin-bottom: -5%;
   }
   .front{
     display: block;
   }
   html,{
-    width: 100vh;
+    width: 100%;
   }
   .bgimage{
-    width: 100vh;
+    width: 100%;
     margin-top: 29%;
   }
   #slogan{
-margin-left: -50%;
-margin-right: 15%;
-margin-top: 15%;
+margin-left: -60%;
+margin-right: 40%;
+margin-top: 20%;
+font-size: 20px;
   }  
 }
 /************ pantalla about ************/
