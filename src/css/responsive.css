@@ -1,0 +1,25 @@
+/******* primera pantalla y nav *******/
+@media(min-width: 375px) and (max-width: 2560px){
+  .navbar-inverted{
+    width: 100%;
+  }
+  .navbar-nav{
+    margin-right: 15%
+  }
+  .front{
+    display: block;
+  }
+  html,{
+    width: 100vh;
+  }
+  .bgimage{
+    width: 100vh;
+    margin-top: 29%;
+  }
+  #slogan{
+margin-left: -50%;
+margin-right: 15%;
+margin-top: 15%;
+  }  
+}
+/************ pantalla about ************/
