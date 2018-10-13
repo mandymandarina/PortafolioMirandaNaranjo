@@ -26,3 +26,14 @@ font-size: 20px;
   }  
 }
 /************ pantalla about ************/
+@media(min-width: 320px) and (max-width: 768px){
+  .container{
+    width: 100%;
+    margin-left: -15%; 
+    height: 20%;   
+  }
+  .subject{
+    font-size: 16px
+  }
+   
+}
