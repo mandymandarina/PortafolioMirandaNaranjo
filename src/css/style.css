@@ -4,7 +4,7 @@ html{
 
 .container-fluid{
   margin-left:50px;
-  margin-right:50px;
+  margin-right:50px;  
 }
 
 /*navigation*/
@@ -42,6 +42,7 @@ a:hover{
 
 /*background image*/
 .bgimage{
+  margin-top: 8%;
   width:100%;  
   background: url(../../assets/img/foto-pc.jpg);
   background-repeat:no-repeat;
@@ -206,7 +207,7 @@ p {
 
 #slogan { 
   font-size: 0.2em;
-
+  margin-top:5%;
  }
 #slogan span:active { 
   text-shadow: none; 
@@ -545,7 +546,7 @@ ul.list-check li {
 
 .download-button{
   text-align: center;
-  margin: 2%;
+  margin: 1%;
 }
 /**************** foto**************/
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
@@ -651,8 +652,8 @@ ul.list-check li {
 
   /**************************** proyectos *********************************/
  /*****************************contacto***********************************/
- .scroll-up {
-	position: right;
+ .footer {
+	background-color: #2f2c37;
 }
  
  .scroll-up a {
