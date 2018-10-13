@@ -533,6 +533,20 @@ li{
 .aboutMe{
   height: 100vh;
 }
+ul.list-check li {
+  position: relative;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.download-button{
+  text-align: center;
+  margin: 2%;
+}
 /**************** foto**************/
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(https://fonts.googleapis.com/css?family=Lato);
@@ -636,6 +650,24 @@ li{
 
 
   /**************************** proyectos *********************************/
-  #work{
-    margin-top: 25%;
-  }
+ /*****************************contacto***********************************/
+ .scroll-up {
+	position: right;
+}
+ 
+ .scroll-up a {
+	background-color: #68c3a3;
+	display: block;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+	background-color: rgba(235, 235, 235, .8);
+	color: #222;
+}
