@@ -42,9 +42,9 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  margin-top: 8%;
+  margin-top: -14%;
   width:100%;  
-  background: url(../../assets/img/foto-pc.jpg);
+  background: url(../../assets/img/fondomuro2.png);
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
@@ -233,7 +233,7 @@ p {
 #meta img { vertical-align: text-bottom; }
 
 /************ sobre mi ***************/
-
+/*
 @import 'https://fonts.googleapis.com/css?family=Bree+Serif';
 
 
@@ -460,7 +460,82 @@ h3 {
   99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);}
   100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; -webkit-filter: blur(0); filter: blur(0);} 
 }
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
 
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.middler{
+  margin-top: 10vh;
+	width:100%;
+	text-align:center;
+	margin-top:40vh;
+}
+
+.light, .bold{
+	font-size:94px;
+	cursor:default;
+}
+.title{
+  font-size: 50px;
+}
+
+.light{
+	font-weight:300;
+}
+
+.bold{
+	font-weight:700;
+}
+
+.console{
+	width:600px;
+	height:200px;
+	background:black;
+	font-family:Consolas;
+	color:white;
+}
+
+@keyframes splash {
+    0% {opacity: 1;}
+	 99.9% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.cGlitch{
+	position:absolute;
+	z-index:1;
+	overflow:hidden;
+	animation: splash 100ms normal forwards ease-in-out;
+	pointer-events:none;
+}
+
+.redClone{color:#F44336;}
+.greenClone{color:#8BC34A;}
+.blueClone{color:#2196f3;}
+.purpleClone{color:#673ab7;}
+.yellowClone{color:#E4ED5E;}
+.cyanClone{color:#5EEDC5;}
+.defaultClone{z-index:-1 !important;color:black;}
+
+
+.hide{
+	display:none !important;
+}
+
+.colorNaturalizer{
+	color:transparent;
+}
+
+.love{
+	fill:black;
+}
+/******* sobre mi fin *******/
   .container{
     display: flex;
     align-content: space-between;
