@@ -30,8 +30,8 @@ a:hover{
 }
 
 
-.navbar-inverted{
-  background-color:rgb(21,17,31);
+.navbar{
+  background-color:rgba(21, 17, 31, 0.466);
   opacity:0.8;
   filter: alpha(opacity=80);
   margin:-2px;
