@@ -1,318 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
-
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <title>Portafolio Miranda</title>
+  <link rel="stylesheet" href="src/css/splash.css">
   <link rel="icon" type="image/png" href="assets/img/pusty-ekran-komputera-laptop_318-39465.jpg" />
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>Portafolio Miranda</title>
 </head>
-
 <body>
-  <nav class="navbar navbar-inverted navbar-fixed-top fixed" >
-    <div class="container-fluid" id="nav">
-      <div class="navbar-header">
-        <div class="navbar-brand">
-            <p id="title" contenteditable="true" spellcheck="false">
-                <span>Miranda</span>
-                <span> Naranjo</span>
-                <div class="front"><span ><strong>Front-End Developer</strong></span></div>              
-              </p>         
+    <glitch>
+        <div class="hero">
         </div>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#home">HOME</a>
-        </li>
-        <li>
-          <a href="#profile">ABOUT ME</a>
-        </li>
-        <li>
-          <a href="#work">PROJECT</a>
-        </li>
-        <li>
-          <a href="#contact">CONTACT</a>
-        </li>
-        <li>
-          <a href="splash.html">BACK</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="bgimage" id="home">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-           <div id="wrapper">
-            <p id="slogan">
-              <span class="res">Soy desarrolladora Front-End Developer</span> & Ingeniero químico,
-              <span class="res">Con ganas de formar parte del mundo tech</span>
-            </p>
-          </div>
-          <div id="container">
-            <canvas id="canvas"></canvas>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="aboutMe" id="profile">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h3>Sobre mí</h3>
-          <div class="container">
-            <div class="card">
-              <div class="img-container">
-                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIg%0D%0AeD0iMHB4IiB5PSIwcHgiCgkgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAw%0D%0AIDMyIDMyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMiAzMiIgeG1sOnNwYWNlPSJwcmVz%0D%0AZXJ2ZSI+CjxjaXJjbGUgZmlsbD0iIzVGRkZCQSIgY3g9IjE3IiBjeT0iMjgiIHI9IjEiLz4KPHJl%0D%0AY3QgeD0iMTMiIHk9IjQiIGZpbGw9IiMyRDIyMjAiIHdpZHRoPSI2IiBoZWlnaHQ9IjEiLz4KPGc+%0D%0ACgk8cGF0aCBmaWxsPSIjMkQyMjIwIiBkPSJNMTMsNHYxaDZWNEgxM3ogTTEzLDR2MWg2VjRIMTN6%0D%0AIE0xMyw0djFoNlY0SDEzeiBNMTMsNHYxaDZWNEgxM3ogTTEwLDI0djFoMTJ2LTFIMTB6IE0xMyw0%0D%0AdjFoNlY0SDEzegoJCSBNMTAsMjR2MWgxMnYtMUgxMHogTTEzLDR2MWg2VjRIMTN6IE0xMCwyNHYx%0D%0AaDEydi0xSDEweiBNMjMsMkg5QzguNDUsMiw4LDIuNDUsOCwzdjVoMVY3aDE0djIxYzAsMC41NS0w%0D%0ALjQ1LDEtMSwxSDEwCgkJYy0wLjU1LDAtMS0wLjQ1LTEtMVYxM0g4djE2YzAsMC41NSwwLjQ1LDEs%0D%0AMSwxaDE0YzAuNTUsMCwxLTAuNDUsMS0xVjNDMjQsMi40NSwyMy41NSwyLDIzLDJ6IE0yMyw2SDlW%0D%0ANGMwLTAuNTUsMC40NS0xLDEtMWgxMgoJCWMwLjU1LDAsMSwwLjQ1LDEsMVY2eiBNMjIsMjRIMTB2%0D%0AMWgxMlYyNHogTTEzLDVoNlY0aC02VjV6IE0xMCwyNHYxaDEydi0xSDEweiBNMTMsNHYxaDZWNEgx%0D%0AM3ogTTEzLDR2MWg2VjRIMTN6IE0xMyw0djFoNlY0SDEzegoJCSBNMTMsNHYxaDZWNEgxM3oiLz4K%0D%0ACTxyZWN0IHg9IjEzIiB5PSI0IiBmaWxsPSIjMkQyMjIwIiB3aWR0aD0iNiIgaGVpZ2h0PSIxIi8+%0D%0ACjwvZz4KPHJlY3QgeD0iMTMiIHk9IjQiIGZpbGw9IiMyRDIyMjAiIHdpZHRoPSI2IiBoZWlnaHQ9%0D%0AIjEiLz4KPHJlY3QgeD0iMTMiIHk9IjQiIGZpbGw9IiMyRDIyMjAiIHdpZHRoPSI2IiBoZWlnaHQ9%0D%0AIjEiLz4KPHJlY3QgeD0iMTQiIHk9IjUiIGZpbGw9IiM1RkZGQkEiIHdpZHRoPSI2IiBoZWlnaHQ9%0D%0AIjEiLz4KPHJlY3QgeD0iMTUiIHk9IjciIGZpbGw9IiM1RkZGQkEiIHdpZHRoPSIxIiBoZWlnaHQ9%0D%0AIjE3Ii8+CjxyZWN0IHg9IjEzIiB5PSI3IiBmaWxsPSIjNUZGRkJBIiB3aWR0aD0iMSIgaGVpZ2h0%0D%0APSIxNyIvPgo8cmVjdCB4PSIxNyIgeT0iNyIgZmlsbD0iIzVGRkZCQSIgd2lkdGg9IjYiIGhlaWdo%0D%0AdD0iMTciLz4KPGNpcmNsZSBmaWxsPSIjMkQyMjIwIiBjeD0iMTYiIGN5PSIyNyIgcj0iMSIvPgo8%0D%0AcGF0aCBmaWxsPSIjMkQyMjIwIiBkPSJNMTAsOS41QzEwLDkuMjI0LDkuNzc2LDksOS41LDloLTJD%0D%0ANy4yMjQsOSw3LDkuMjI0LDcsOS41bDAsMEM3LDkuNzc2LDcuMjI0LDEwLDcuNSwxMGgyCglDOS43%0D%0ANzYsMTAsMTAsOS43NzYsMTAsOS41TDEwLDkuNXoiLz4KPHBhdGggZmlsbD0iIzJEMjIyMCIgZD0i%0D%0ATTEwLDExLjVjMC0wLjI3Ni0wLjIyNC0wLjUtMC41LTAuNWgtMkM3LjIyNCwxMSw3LDExLjIyNCw3%0D%0ALDExLjVsMCwwQzcsMTEuNzc2LDcuMjI0LDEyLDcuNSwxMmgyCglDOS43NzYsMTIsMTAsMTEuNzc2%0D%0ALDEwLDExLjVMMTAsMTEuNXoiLz4KPC9zdmc+Cg=="
-                />
-              </div>
-              <span class="subject">
-                <strong>SOFT SKILLS</strong>
-              </span>
-              <ul id="animateList">
-
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Empatia</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Autodidacta</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Adaptabilidad</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Trabajo colaborativo</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Capacidad de análisis</a>
-                </li>
-              </ul>
-
-            </div>
-            <div class="card">
-              <div class="img-container">
-                <figure class="snip1508">
-                  <img src="assets/img/IMG_2675.JPG" alt="sample88"/>
-                  <figcaption>
-                    <h2>Miranda Naranjo</h2>
-                    <h3>Front-end Developer</h3>
-                    <p>I'm learning real skills that I can apply throughout the rest of my life ... Procrastinating and rationalizing.</p>
-                  </figcaption>
-                  <a href="#"></a>
-                </figure>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="img-container">
-                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIg%0D%0AeD0iMHB4IiB5PSIwcHgiCgkgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAw%0D%0AIDMyIDMyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMiAzMiIgeG1sOnNwYWNlPSJwcmVz%0D%0AZXJ2ZSI+CjxwYXRoIGZpbGw9IiMyRDIyMjAiIGQ9Ik0yNiw3djEzSDE1LjVjLTAuMjgsMC0wLjUt%0D%0AMC4yMi0wLjUtMC41czAuMjItMC41LDAuNS0wLjVIMjVWOEg3djExaDEuNUM4Ljc4LDE5LDksMTku%0D%0AMjIsOSwxOS41CglTOC43OCwyMCw4LjUsMjBINlY3SDI2eiIvPgo8cmVjdCB4PSIxNCIgeT0iOCIg%0D%0AZmlsbD0iI0ZGRDU2MSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIi8+CjxyZWN0IHg9IjEyIiB5PSI4%0D%0AIiBmaWxsPSIjRkZENTYxIiB3aWR0aD0iMSIgaGVpZ2h0PSIxMSIvPgo8cmVjdCB4PSIxMCIgeT0i%0D%0AOCIgZmlsbD0iI0ZGRDU2MSIgd2lkdGg9IjEiIGhlaWdodD0iMTEiLz4KPHJlY3QgeD0iMSIgeT0i%0D%0AMjgiIGZpbGw9IiNGRkQ1NjEiIHdpZHRoPSIzMCIgaGVpZ2h0PSIxIi8+CjxwYXRoIGZpbGw9IiMy%0D%0ARDIyMjAiIGQ9Ik0yMyw1LjVDMjMsNS43OCwyMi43OCw2LDIyLjUsNmgtOEMxNC4yMiw2LDE0LDUu%0D%0ANzgsMTQsNS41UzE0LjIyLDUsMTQuNSw1aDhDMjIuNzgsNSwyMyw1LjIyLDIzLDUuNXoiLz4KPHBh%0D%0AdGggZmlsbD0iIzJEMjIyMCIgZD0iTTMwLjg2LDI2LjQ5bC0zLTVjLTAuMDYxLTAuMTAxLTAuMTQx%0D%0ALTAuMTktMC4yMy0wLjI2QzI3Ljg1LDIwLjk0LDI4LDIwLjU1LDI4LDIwVjdjMCwwLDAtMi0yLTJz%0D%0ALTIsMC0yLDAKCWgwLjVDMjQuMjIsNSwyNCw1LjIyLDI0LDUuNVMyNC4yMiw2LDI0LjUsNkgyNmMw%0D%0ALjgxLDAsMC45OSwwLjU1LDEsMXYxM2MwLDAuODEtMC41NSwwLjk5LTEsMUg2Yy0wLjgxLDAtMC45%0D%0AOS0wLjU1LTEtMVY3CgljMC0wLjgxLDAuNTUtMC45OSwxLTFoMTYuNUMyMi43NzksNiwyMyw1Ljc4%0D%0ALDIzLDUuNVMyMi43NzksNSwyMi41LDVINmMwLDAtMiwwLTIsMnYxM2MwLDAsMCwwLjY2LDAuMzgs%0D%0AMS4yMgoJYy0wLjA5LDAuMDctMC4xOCwwLjE2LTAuMjQsMC4yNzFsLTMsNWMtMC4xOCwwLjMtMC4x%0D%0AOSwwLjY4OS0wLjAxLDFDMS4zMSwyNy44MSwxLjY0LDI4LDIsMjhoMjhjMC4zNiwwLDAuNjktMC4x%0D%0AOSwwLjg3LTAuNTEKCUMzMS4wNSwyNy4xOCwzMS4wNCwyNi43OSwzMC44NiwyNi40OXogTTIsMjds%0D%0AMy01aDIybDMsNUgyeiIvPgo8cGF0aCBmaWxsPSIjMkQyMjIwIiBkPSJNMTQsMTkuNWMwLTAuMjc2%0D%0ALTAuMjI0LTAuNS0wLjUtMC41aC0zYy0wLjI3NiwwLTAuNSwwLjIyNC0wLjUsMC41bDAsMGMwLDAu%0D%0AMjc2LDAuMjI0LDAuNSwwLjUsMC41aDMKCUMxMy43NzYsMjAsMTQsMTkuNzc2LDE0LDE5LjVMMTQs%0D%0AMTkuNXoiLz4KPHBhdGggZmlsbD0iIzJEMjIyMCIgZD0iTTE5LDI1LjVjMC0wLjI3Ni0wLjIyNC0w%0D%0ALjUtMC41LTAuNWgtMTNDNS4yMjQsMjUsNSwyNS4yMjQsNSwyNS41bDAsMEM1LDI1Ljc3Niw1LjIy%0D%0ANCwyNiw1LjUsMjZoMTMKCUMxOC43NzYsMjYsMTksMjUuNzc2LDE5LDI1LjVMMTksMjUuNXoiLz4K%0D%0APHBhdGggZmlsbD0iIzJEMjIyMCIgZD0iTTIzLDI1LjVjMC0wLjI3Ni0wLjIyNC0wLjUtMC41LTAu%0D%0ANWgtMWMtMC4yNzYsMC0wLjUsMC4yMjQtMC41LDAuNWwwLDBjMCwwLjI3NiwwLjIyNCwwLjUsMC41%0D%0ALDAuNWgxCglDMjIuNzc2LDI2LDIzLDI1Ljc3NiwyMywyNS41TDIzLDI1LjV6Ii8+CjxwYXRoIGZp%0D%0AbGw9IiMyRDIyMjAiIGQ9Ik0yNywyNS41YzAtMC4yNzYtMC4yMjQtMC41LTAuNS0wLjVoLTFjLTAu%0D%0AMjc2LDAtMC41LDAuMjI0LTAuNSwwLjVsMCwwYzAsMC4yNzYsMC4yMjQsMC41LDAuNSwwLjVoMQoJ%0D%0AQzI2Ljc3NiwyNiwyNywyNS43NzYsMjcsMjUuNUwyNywyNS41eiIvPgo8cGF0aCBmaWxsPSIjMkQy%0D%0AMjIwIiBkPSJNMjUsMjMuNWMwLTAuMjc2LTAuMjI0LTAuNS0wLjUtMC41aC05Yy0wLjI3NiwwLTAu%0D%0ANSwwLjIyNC0wLjUsMC41bDAsMGMwLDAuMjc2LDAuMjI0LDAuNSwwLjUsMC41aDkKCUMyNC43NzYs%0D%0AMjQsMjUsMjMuNzc2LDI1LDIzLjVMMjUsMjMuNXoiLz4KPHBhdGggZmlsbD0iIzJEMjIyMCIgZD0i%0D%0ATTEzLDIzLjVjMC0wLjI3Ni0wLjIyNC0wLjUtMC41LTAuNWgtMWMtMC4yNzYsMC0wLjUsMC4yMjQt%0D%0AMC41LDAuNWwwLDBjMCwwLjI3NiwwLjIyNCwwLjUsMC41LDAuNWgxCglDMTIuNzc2LDI0LDEzLDIz%0D%0ALjc3NiwxMywyMy41TDEzLDIzLjV6Ii8+CjxwYXRoIGZpbGw9IiMyRDIyMjAiIGQ9Ik05LDIzLjVD%0D%0AOSwyMy4yMjQsOC43NzYsMjMsOC41LDIzaC0xQzcuMjI0LDIzLDcsMjMuMjI0LDcsMjMuNWwwLDBD%0D%0ANywyMy43NzYsNy4yMjQsMjQsNy41LDI0aDEKCUM4Ljc3NiwyNCw5LDIzLjc3Niw5LDIzLjVMOSwy%0D%0AMy41eiIvPgo8L3N2Zz4K"
-                />
-              </div>
-              <span class="subject">
-                <strong>SKILLS</strong>
-              </span>
-              <ul id="animateList2">
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Lenguaje JavaScript</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Angular 2</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Github</a>
-                </li>
-                <li>
-                  <i class="far fa-check-square"></i>
-                  <a>Bootstrap</a>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-          <div class="download-button">
-              <a class="btn btn-primary btn-lg" download="MirandaNaranjo_CV" href="assets/document/Miranda Naranjo CV.pdf">
-                <i class="fa fa-download"></i> Descarga mi CV</a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
-  <div class="portfolio">
-    <div class="contaier-fluid">
-      <h3 id="work">Recent project</h3>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <div class="card-header"><span class="subject">
-                <strong>EASYFOOD</strong>
-              </span></div>
-              <div class="card-body">
-                  <figure class="snip1508">
-                      <img src="assets/img/easyFood.png" alt="sample88" />
-                      <figcaption>
-                        <h2>RED SOCIAL</h2>
-                        <h3>Front-end</h3>
-                        <p>Red social para compartir recetas. Aplicación creada con angular 2.</p>
-                      </figcaption>
-                      <a href="#"></a>
-                    </figure>
-                    <a class="btn btn-default btn-lg github-btn" href="https://github.com/mandymandarina/redSocialProyectoAngular" role="button" target="_blank">
-                      <i class="fas fa-link"></i>
-                      <span>Ver proyecto</span>
-                    </a>
-                    <a class="btn btn-default btn-lg fcc-btn" href="https://redsocialproyectoangular.firebaseapp.com/" role="button" target="_blank">
-                      <i class="fas fa-link"></i>
-                      <span>Ver demo</span>             
-                <a href=""></a>           
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <div class="card-header">
-              <span class="subject">
-                <strong>MARKDOWN</strong>
-              </span></div>
-            <div class="card-body">
-                <figure class="snip1508">
-                    <img src="assets/img/Markdown.png" alt="sample88" />
-                    <figcaption>
-                      <h2>DEPENDECIA</h2>
-                      <h3>Back-end</h3>
-                      <p>Dependecia de node.js creada con lenjuaje javaScript, en donde puedes extraer la ubicacion de uno o mas links dentro de un archivo ".md".</p>
-                    </figcaption>
-                    <a href="#"></a>
-                  </figure>
-                  <a class="btn btn-default btn-lg github-btn" href="https://github.com/mandymandarina/scl-2018-01-FE-markdown" role="button" target="_blank">
-                    <i class="fas fa-link"></i>
-                    <span>Ver proyecto</span>
-                  </a>
-                  <a class="btn btn-default btn-lg fcc-btn" href="https://www.linkedin.com/in/miranda-naranjo-medel-b2578715a/" role="button" target="_blank">
-                    <i class="fas fa-link"></i>
-                    <span>Ver demo</span>             
-              <a href=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <div class="card-header"><span class="subject">
-                <strong>TRANS-LAB</strong>
-              </span></div>
-            <div class="card-body">
-                <figure class="snip1508">
-                    <img src="assets/img/Trans-Lab.png" alt="sample88" />
-                    <figcaption>
-                      <h2>APLICACION</h2>
-                      <h3>Front-end</h3>
-                      <p>Aplicación para calcular la tarifa de tu tarjeta bip del transantiago usando apis creado con lenjuaje javaScript.</p>
-                    </figcaption>                   
-                  </figure> 
-                  <a class="btn btn-default btn-lg github-btn" href="https://github.com/mandymandarina/Trans-LabTwo" role="button" target="_blank">
-                    <i class="fas fa-link"></i>
-                    <span>Ver proyecto</span>
-                  </a>
-                  <a class="btn btn-default btn-lg fcc-btn" href="https://mandymandarina.github.io/Trans-LabTwo/" role="button" target="_blank">
-                    <i class="fas fa-link"></i>
-                    <span>Ver demo</span>             
-              <a href=""></a>            
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <a href="#" class="btn btn-primary btn-block">
-            <strong>Click here to see more!</strong>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="contact">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 id="contact">Contact</h2>
-          <div class="form-group">
-            <input type="text" class="form-control" id="text" placeholder="Name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" id="text" placeholder="Email" required>
-          </div>
-
-          <div class="form-group">
-            <textarea class="form-control" rows="5" id="text" placeholder="Message"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="submit" class="btn btn-success" value="Send Message">
-          </div>
-          <div class="social-cont">
-              <div class="row">
-                <div class="col-sm-12">
-                  <a class="btn btn-default btn-lg twitter-btn" href="mailto:m.naranjo.medel@gmail.com" role="button" target="_blank">
-                    <i class="fas fa-envelope"></i>
-                    <span> E-mail</span>
-                  </a>
-                  <a class="btn btn-default btn-lg github-btn" href="https://github.com/mandymandarina" role="button" target="_blank">
-                    <i class="fab fa-github"></i>
-                    <span>Github</span>
-                  </a>
-                  <a class="btn btn-default btn-lg fcc-btn" href="https://www.linkedin.com/in/miranda-naranjo-medel-b2578715a/" role="button" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                    <span>LinkedIn</span>                    
-                  </a>                  
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <p>&copy;2018 Miranda Naranjo Medel</p>          
-        </div>
-        <div class="scroll-up">
-            <a href="#home">
-                <i class="fas fa-caret-up"></i>
-            </a>
-          </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="src/js/app.js"></script>
+        <h1>Error 404?!</h1>
+          <h2>Sometimes you take the road less travelled &hellip;</h2>
+          <p>
+            We're not sure how you got here, but you should head <a href="indexx.html">home</a>. </p>
+         <p>
+            It's probably our fault that you're here; but if you're having trouble with the site just shoot us an <a href="mailto:m.naranjo.medel@gmail.com">email</a>.
+         </p>
+        <!-- Extra spacing! -->
+        <br />
+        <br />
+        <br />
+        <br />
+        
+      </glitch>
+      
+  <script src="src/js/splash.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>
-
 </html>
