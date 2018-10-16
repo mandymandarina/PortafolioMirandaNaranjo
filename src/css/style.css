@@ -42,7 +42,7 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  margin-top: -14%;
+  margin-top: -15.5%;
   width:100%;  
   background: url(../../assets/img/fondomuro2.png);
   background-repeat:no-repeat;
@@ -470,8 +470,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.middler{
-  margin-top: 10vh;
+.middler{  
 	width:100%;
 	text-align:center;
 	margin-top:40vh;
@@ -554,11 +553,18 @@ h3 {
     justify-content: space-between;
     flex-direction: column;
     max-width: 50.3%;
-    background-color: transparent;        
+    background-color: transparent;
+    margin: 5%;        
 }
-
-
-
+.profile, .portafolio{
+  margin:2%;
+}
+.listasoft{
+  margin-left:5%;
+}
+.listskills{
+  margin-bottom: -6%;
+}
 .img-container{
     padding: 20px;
     display: flex;
