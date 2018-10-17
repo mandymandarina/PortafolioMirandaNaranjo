@@ -48,6 +48,9 @@
   .listasoft{
     margin-left:1%;
   } 
+  .card-body, .img-container{
+    margin-bottom: 3%;
+  }  
 }
 /************ pantalla contact *****/
 @media(min-width:320px) and (max-width: 768px){
@@ -65,5 +68,8 @@
   }
   .footer{
     margin-left: -20%;
+  }
+  form{
+    margin-left: -19%;
   }
 }

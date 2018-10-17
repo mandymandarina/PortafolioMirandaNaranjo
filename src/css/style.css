@@ -1,5 +1,5 @@
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
 
 /****** menu prueba *****/
@@ -12,7 +12,7 @@ html{
 		#block ul li{display:inline-block;margin-right:20px;color:#DDFFFF;font-size:20px;margin-top:10px;margin-bottom:10px;position:relative;}
 		#block ul li a{color:#DDFFFF;display:inline-block;padding:4px 4px;border:1px solid #DDFFFF;}
 		#block ul li a:hover,.elem{background:#DDFFFF;color:#000;}
-		#block ul li a.current{/*background:#E76C67;color:#000;border:1px solid #E76C67;*/border:1px solid #000;}
+		#block ul li a.current{background:#E76C67;color:#000;border:1px solid #E76C67;border:1px solid #000;}
 		#block ul li a.red{background:#E76C67;color:#000;border:1px solid #E76C67;}
 		.elemCurrent{background:#E76C67;color:#000;}
 		.elem{overflow:hidden;position:relative;}
@@ -65,7 +65,7 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  margin-top: -14%;
+  margin-top: -16%;
   width:100%;  
   background: url(../../assets/img/fondomuro2.png);
   background-repeat:no-repeat;
@@ -124,7 +124,8 @@ h2{
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
   background-color: #eee;
-  min-height: 100%;
+  height: 100%;
+  width: 100%;
   color: #fff;
   background-image: url("../../assets/img/mirandayohola.jpg");
   background-size: cover;
@@ -759,9 +760,7 @@ ul.list-check li {
 
 
   /**************************** proyectos *********************************/
-  .btn-block{
-
-  }
+  
  /*****************************contacto***********************************/
  .footer {
   background-color: #2f2c37;
