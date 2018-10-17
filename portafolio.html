@@ -21,31 +21,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed">
-        <a class="navbar-brand" routerLink="/perfil" href="#profile">MIRANDA NARANJO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" routerLink="/project" href="#work">Proyectos <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/contac" href="#contact">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/home" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink="/home" href="index.html">Entrada</a>
-              </li>
-          </ul>
-          <span class="navbar-text">
-          Front-End Developer
-          </span>
-        </div>
-      </nav>
+    <div id="block"class="fixed">
+        <ul>
+          <li>
+          <a href="#home" class="current" title="Main">Miranda Naranjo</a>
+          </li>
+          <li><a href="#profile" title="About us">Fron-end Developer</a></li>
+          <li><a href="#work" title="Portfolio">Proyectos</a></li>
+          <li><a href="index.html" title="Blog">Entrada</a></li>
+          <li><a href="#contact" title="Contacts">Contacto</a></li>
+        </ul>
+        
+      </div>
       
       <!--  
   <nav class="navbar navbar-inverted navbar-fixed-top fixed" >
@@ -190,7 +177,7 @@
 <div class="profile" id="profile">
     <div class="contaier-fluid">
       
-        <h3 class="beGlitchy light title">Sobre mí</h3>
+        <h3 class="beGlitchy light title">Sobre mí: Front-end Developer</h3>
       <div class="row">
         <div class="col-md-4">
           <div class="thumbnail">
@@ -284,7 +271,7 @@
         </div>
         <div class="col-md-12">
           <a href="#" class="btn btn-primary btn-block">
-            <strong>Click here to see more!</strong>
+            <strong><span>Click para ver más!</span></strong>
           </a>
         </div>
       </div>
@@ -293,7 +280,7 @@
 
     <div class="download-button">
         <a class="btn btn-primary btn-lg" download="MirandaNaranjo_CV" href="assets/document/Miranda Naranjo CV.pdf">
-          <i class="fa fa-download"></i> Descarga mi CV</a>
+          <i class="fa fa-download"></i> <span>Descarga mi CV</span></a>
       </div>
     <!-- proyectos -->
 
@@ -382,7 +369,7 @@
         </div>
         <div class="col-md-12">
           <a href="#" class="btn btn-primary btn-block">
-            <strong>Click here to see more!</strong>
+            <strong><span>Click para ver más!</span></strong>
           </a>
         </div>
       </div>

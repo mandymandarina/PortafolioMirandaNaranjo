@@ -2,6 +2,29 @@ html{
   scroll-behavior: smooth;
 }
 
+/****** menu prueba *****/
+*{margin:0;padding:0;}
+		body{font-family:Arial;background:#15111f;}
+		ol,ul{list-style:none;}
+		a{text-decoration:none;}
+		#block{background:#15111f;}
+		#block ul{margin-left:10px;}
+		#block ul li{display:inline-block;margin-right:20px;color:#DDFFFF;font-size:20px;margin-top:10px;margin-bottom:10px;position:relative;}
+		#block ul li a{color:#DDFFFF;display:inline-block;padding:4px 4px;border:1px solid #DDFFFF;}
+		#block ul li a:hover,.elem{background:#DDFFFF;color:#000;}
+		#block ul li a.current{/*background:#E76C67;color:#000;border:1px solid #E76C67;*/border:1px solid #000;}
+		#block ul li a.red{background:#E76C67;color:#000;border:1px solid #E76C67;}
+		.elemCurrent{background:#E76C67;color:#000;}
+		.elem{overflow:hidden;position:relative;}
+		.elem1 span{position:relative;display:inline-block;top:0px;}
+		.elem2 span{position:relative;display:inline-block;top:-10px;}
+		.elem3 span{position:relative;display:inline-block;top:-20px;}
+		.elemWrapper{position:absolute;display:none;cursor:pointer;width:auto;height:35px;width:97px;}
+		
+		.noise:before{content:'';display:inline-block;width:100%;height:100%;background:url("http://s018.radikal.ru/i510/1610/37/1778cee5029c.png") repeat;position:absolute;z-index:900;}
+		.noise2:before{content:'';display:inline-block;width:100%;height:100%;background:url("noise2.png") repeat;position:absolute;z-index:900;}
+		.overlayer{cursor:pointer;width:100%;height:100%;background:transparent;z-index:999;position:absolute;left:0;top:0;border:none;}
+/******** fin menu prueba *****/
 .container-fluid{
   margin-left:50px;
   margin-right:50px;  
@@ -42,7 +65,7 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  margin-top: -14%;
+  margin-top: -13%;
   width:100%;  
   background: url(../../assets/img/fondomuro2.png);
   background-repeat:no-repeat;
@@ -130,6 +153,7 @@ body {
 }
 .bgimage{
   height:100vh;
+
 }
 
 span { 
