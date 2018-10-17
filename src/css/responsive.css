@@ -49,3 +49,21 @@
     margin-left:1%;
   } 
 }
+/************ pantalla contact *****/
+@media(min-width:320px) and (max-width: 768px){
+  .contact{
+    width: 100%;
+  }
+  .form-control{
+    width: 75%;
+  }
+  #contact{
+    margin-left:1%;
+  }
+  .scrolll{
+    margin-left: 50vh;
+  }
+  .footer{
+    margin-left: -20%;
+  }
+}

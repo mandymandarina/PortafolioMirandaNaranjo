@@ -42,7 +42,7 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  margin-top: -15.5%;
+  margin-top: -14%;
   width:100%;  
   background: url(../../assets/img/fondomuro2.png);
   background-repeat:no-repeat;
@@ -735,9 +735,13 @@ ul.list-check li {
   /**************************** proyectos *********************************/
  /*****************************contacto***********************************/
  .footer {
-	background-color: #2f2c37;
+  background-color: #2f2c37;
+  margin-left: -5%;
 }
- 
+.scrolll{
+  margin-left: 200vh;
+}
+
  .scroll-up a {
 	background-color: #68c3a3;
 	display: block;
