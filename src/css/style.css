@@ -49,7 +49,7 @@ a:hover{
   /* background-color:#f4f4f4; */
 }
 .active{
-  border-bottom: 2px solid #b953d3;
+  border-bottom: 2px solid #e76c67;
 }
 
 
@@ -65,7 +65,7 @@ a:hover{
 
 /*background image*/
 .bgimage{
-  margin-top: -13%;
+  margin-top: -14%;
   width:100%;  
   background: url(../../assets/img/fondomuro2.png);
   background-repeat:no-repeat;
@@ -84,6 +84,7 @@ h2{
 }
 
 .thumbnail{
+  background-color: #2f2c3767;
   border:none;
   box-shadow:0 5px 5px rgba(0, 0, 0, 0.2); 
 }
@@ -102,7 +103,7 @@ h2{
 .btn-primary:hover{
   -webkit-transition:1s ease;
   transition:1s ease;
-  background-color:#b953d3;
+  background-color:#e76c67;
   color:#15111f;
   border:1px solid white;
 }
@@ -110,7 +111,7 @@ h2{
 .btn-success:hover{
   -webkit-transition:1s esae;
   transition:1s ease;
-  background-color:#b953d3;
+  background-color:#e76c67;
   color:#15111f;
   border:1px solid white;
 }
@@ -494,7 +495,8 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.middler{  
+.middler{ 
+  padding: 8%; 
 	width:100%;
 	text-align:center;
 	margin-top:40vh;
@@ -559,7 +561,7 @@ h3 {
 	fill:black;
 }
 /******* sobre mi fin *******/
-  .container{
+  .container{    
     display: flex;
     align-content: space-between;
     justify-content: center;
@@ -571,7 +573,7 @@ h3 {
     margin-top: 3%;
 }
 
-.card{
+.card{  
     border-radius: 3px;
     display: flex;
     justify-content: space-between;
@@ -757,15 +759,22 @@ ul.list-check li {
 
 
   /**************************** proyectos *********************************/
+  .btn-block{
+
+  }
  /*****************************contacto***********************************/
  .footer {
   background-color: #2f2c37;
   margin-left: -5%;
 }
-.scrolll{
-  margin-left: 200vh;
+form{
+  margin-left:55%;
+  margin-right: -25%;
+  padding:3%; 
 }
-
+.scrolll{
+  margin-left: 190vh;
+}
  .scroll-up a {
 	background-color: #68c3a3;
 	display: block;
@@ -776,7 +785,6 @@ ul.list-check li {
 	font-size: 14px;
 	line-height: 28px;
 }
-
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);

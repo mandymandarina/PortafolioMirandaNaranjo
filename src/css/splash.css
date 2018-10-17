@@ -21,6 +21,7 @@ h2 {
   font-size: 25px;
 }
 p {
+  background-color:yellow; 
   padding: 10px;
   margin: 0px 30px;
   font-size: 15px;
