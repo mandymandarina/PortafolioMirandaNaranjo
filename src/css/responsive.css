@@ -12,13 +12,13 @@
   }
   .bgimage{
     width: 100%;
-    margin-top: 11%;
+    margin-top: 11%;    
   }
   .middler{
     margin-top:50%;   
     overflow-x: hidden;
     position:relative;
-    left: 50px;
+    left: 40px;
   } 
   .light{
     font-size: 30px;    
