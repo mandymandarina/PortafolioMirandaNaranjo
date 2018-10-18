@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
-
-
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -15,8 +13,7 @@
   <title>Portafolio Miranda</title>
   <link rel="icon" type="image/png" href="assets/img/pusty-ekran-komputera-laptop_318-39465.jpg" />
   <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="src/css/style.css">
-    
+  <link rel="stylesheet" href="src/css/style.css">  
   <link rel="stylesheet" href="src/css/responsive.css">
 </head>
 
@@ -68,6 +65,8 @@
 -->
   <div class="bgimage" id="home">
     <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="middler">
             <h3 class="beGlitchy light">Front-end Developer </h3>
             <a class="beGlitchy bold"> e Ingeniero Químico</a>
@@ -77,7 +76,8 @@
             c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
           </svg> del mundo tech</span>
           </div>
-
+        </div>
+        </div>
     </div>
   </div>
 
@@ -174,10 +174,13 @@
     </div>
   </div>
 -->
+<section class="contaier-fluid">
 <div class="profile" id="profile">
-    <div class="contaier-fluid">
-      
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">                    
         <h3 class="beGlitchy light title">Sobre mí: Front-end Developer</h3>
+      </div> 
+      </div>
       <div class="row">
         <div class="col-md-4">
           <div class="thumbnail">
@@ -235,8 +238,7 @@
                 </div>
           </div>
         </div>
-
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="thumbnail">
             <div class="card-header"><span class="subject">
                 <strong>SKILLS</strong>
@@ -257,6 +259,10 @@
                       <a>Angular 2</a>
                     </li>
                     <li>
+                        <i class="far fa-check-square"></i>
+                        <a>Git</a>
+                      </li>
+                    <li>
                       <i class="far fa-check-square"></i>
                       <a>Github</a>
                     </li>
@@ -269,27 +275,31 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="download-button">
+          <a class="btn btn-primary btn-lg" download="MirandaNaranjo_CV" href="assets/document/Miranda Naranjo CV.pdf">
+            <i class="fa fa-download"></i> <span>Descarga mi CV</span></a>
+        </div>
+      </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <a href="#" class="btn btn-primary btn-block">
             <strong><span>Click para ver más!</span></strong>
           </a>
         </div>
       </div>
-    </div>
-  </div>
+    </div>  
+  </section>
 
-    <div class="download-button">
-        <a class="btn btn-primary btn-lg" download="MirandaNaranjo_CV" href="assets/document/Miranda Naranjo CV.pdf">
-          <i class="fa fa-download"></i> <span>Descarga mi CV</span></a>
-      </div>
+    
     <!-- proyectos -->
-
-  <div class="portafolio">
-    <div class="contaier-fluid">
-      <h3 id="work" class="beGlitchy light title">Proyectos</h3>
-      
+  <section>
+      <div class="contaier-fluid">
+      <div class="portafolio"> 
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+      <h3 id="work" class="beGlitchy light title">Proyectos</h3> 
+    </div>     
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="thumbnail">
             <div class="card-header"><span class="subject">
                 <strong>EASYFOOD</strong>
@@ -375,14 +385,19 @@
       </div>
     </div>
   </div>
-
+</section>
 <!-- contacto -->
-
+<section>
   <div class="contact">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6">
-          <h3 id="contact" class="beGlitchy light title">Contacto</h3>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h3 id="contact" class="beGlitchy light title">Contacto</h3>   
+          </div> 
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 col-sm-12 col-xs-12">      
           <form name="form1" method="post" action="mailto:m.naranjo.medel@gmail.com">
               <div class="form-group">
             <input type="text" class="form-control" id="text" placeholder="Name" required>
@@ -397,7 +412,8 @@
             <button type="submit" name="Submit" class="btn btn-success" value="Enviar mensaje"><i class="fas fa-envelope"></i> <span>Enviar mensaje</span></button>
             <div class="form-group">
             </form>
-
+            </div>
+            </div>
           
           <div class="social-cont">
               <div class="row">
@@ -419,19 +435,22 @@
   </div>
 
   <div class="footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <p>&copy;2018 Miranda Naranjo Medel</p>          
+    <div class="container-fluid">      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p>&copy;2018 Miranda Naranjo Medel</p>
         </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">       
         <div class="scroll-up">
             <a class="scrolll" href="#home">
                 <i class="fas fa-caret-up"></i>
             </a>
           </div>
+        </div>
       </div>
     </div>
   </div>
+  </div>
+</section>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

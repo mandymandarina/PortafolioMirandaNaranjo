@@ -1,13 +1,14 @@
 /******* primera pantalla y nav *******/
 @media(min-width: 320px) and (max-width: 768px){
   .navbar-light{
-    width: 90%;    
+    width: 100%;    
   }  
   .front{
     display: block;
   }
   html,{
     width: 100%;
+    overflow-x: hidden;
   }
   .bgimage{
     width: 100%;
@@ -15,6 +16,7 @@
   }
   .middler{
     margin-top: 100%;
+    overflow-x: hidden;
   } 
   .light{
     font-size: 30px;    
@@ -58,7 +60,7 @@
     width: 100%;
   }
   .form-control{
-    width: 75%;
+    width: 100%;
   }
   #contact{
     margin-left:1%;
@@ -66,10 +68,9 @@
   .scrolll{
     margin-left: 50vh;
   }
-  .footer{
-    margin-left: -20%;
-  }
+  
   form{
-    margin-left: -19%;
+    text-align: center;
   }
+  
 }
