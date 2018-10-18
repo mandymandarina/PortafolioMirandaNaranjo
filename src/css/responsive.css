@@ -12,11 +12,13 @@
   }
   .bgimage{
     width: 100%;
-    margin-top: -55.5%;
+    margin-top: 11%;
   }
   .middler{
-    margin-top: 100%;
+    margin-top:50%;   
     overflow-x: hidden;
+    position:relative;
+    left: 50px;
   } 
   .light{
     font-size: 30px;    
@@ -67,10 +69,8 @@
   }
   .scrolll{
     margin-left: 50vh;
-  }
-  
+  }  
   form{
     text-align: center;
-  }
-  
+  }  
 }
